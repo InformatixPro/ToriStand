@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^coming-soon$ /coming-soon.php [L]	
+	RewriteRule ^Tori$ /index.shtml [L]
+    RewriteRule ^About/Tori$ /page_about.shtml [L]
+    RewriteRule ^Tori/Features$ /page_features.shtml [L]
+    RewriteRule ^Tori/Portfolio$ /portfolio_2_column.shtml [L]
+    RewriteRule ^Blog/About/Tori$ /blog_right_sidebar.shtml [L]
+    RewriteRule ^Blog/About/Tori/([0-9]+)$ /blog_item_option1.shtml?id=$1 [L]
+    RewriteRule ^ContactUs/About/Tori$ /page_contact2.shtml [L]
+</IfModule>

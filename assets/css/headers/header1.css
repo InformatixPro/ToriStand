@@ -129,7 +129,8 @@
 /*Navbar*/
 .header .navbar-default .navbar-nav > li > a {
 	color: #687074;
-	font-size: 15px;
+	/*font-size: 15px;*/
+	font-size: 18px;
 	font-weight:400;
 	padding: 9px 20px;
 	text-transform: uppercase;
@@ -187,8 +188,8 @@
 	color: #aaa;
 	cursor: pointer;
 	padding: 8px 8px 10px;
-	border-bottom-color: #aaa;
-	background: #f7f7f7 !important;
+	/*border-bottom-color: #aaa;*/
+	/*background: #f7f7f7 !important;*/
 }
 
 .header .navbar .nav > li > a.search:hover {
@@ -224,7 +225,8 @@
 	/*Navbar*/
 	.header .navbar-nav {
 		top: 2px;
-		margin-top: 10px;
+		/*margin-top: 10px;*/
+		margin-top: 46px;
 		position: relative;
 	}
 
